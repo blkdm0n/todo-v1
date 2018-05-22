@@ -6,4 +6,8 @@ var todos = [`study algorithms`, `white boarding practice`, `get a job`];
 
 console.log(`My Todos`, todos)
 
-//REQ #3 - It should have a way 
+//REQ #3 - It should have a way to add new todos
+
+todos.push(`live happily ever after`);
+
+console.log(`My Todos`, todos)

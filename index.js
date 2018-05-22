@@ -15,3 +15,9 @@ console.log(`My Todos`, todos);
 
 todos[0] = `Read Cracking the Coding Interview`;
 console.log(`My Todos`, todos);
+
+//REQ #5 - It should have a way to delete a todo
+
+todos.splice(3,1);
+console.log(`My Todos`, todos);
+
